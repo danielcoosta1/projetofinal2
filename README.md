@@ -3,6 +3,10 @@
 **Cozinha da Vovó** é uma página simples e afetuosa dedicada ao resgate das receitas tradicionais de família. A ideia é criar um espaço digital que valorize o sabor de casa e a memória afetiva da culinária da vovó.
 
 Este projeto foi desenvolvido como parte de estudos sobre **HTML**, **CSS**, **JS** e **estruturação de páginas web**, com foco na organização do layout, responsividade e estilização com CSS moderno.
+## 🎥 Demonstração
+
+![Demo](./preview.gif)
+
 
 ## 🎨 Layout e Estilo
 
