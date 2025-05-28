@@ -1,0 +1,139 @@
+/* PÁGINA 3 - RECEITA DETALHADA  */
+/* receita.html */
+
+#titulo-receita {
+    font-size: 2.5rem;
+    color: #a84c24;
+    margin-bottom: 1rem;
+}
+
+.imagem-receita {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.conteudo-receita h2 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    color: #7a4c1e;
+    border-bottom: 2px solid #f3a847;
+    padding-bottom: 0.5rem;
+}
+
+.conteudo-receita {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 2rem;
+
+}
+
+ul#ingredientes {
+    list-style-type: "🍴 ";
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
+
+}
+
+#modo-preparo {
+    background-color: #fffaf3;
+    padding: 1rem 1.25rem;
+    border-left: 5px solid #f3a847;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4b2e2e;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 1rem;
+}
+
+
+
+
+.modo-preparo-bloco {
+    background-color: #fffaf3;
+    border-left: 4px solid #f3a847;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.modo-preparo-bloco h3 {
+    margin-top: 0;
+
+    color: #7a4c1e;
+}
+
+
+@media (max-width: 768px) {
+    #titulo-receita {
+        font-size: 2rem;
+        color: #a84c24;
+        margin-bottom: .9rem;
+    }
+
+    .conteudo-receita h2 {
+        font-size: 1.55rem;
+        margin-top: 1.8rem;
+
+
+    }
+
+    ul#ingredientes {
+
+        margin-top: .8rem;
+        padding-left: 1.3rem;
+        line-height: 1.6;
+        font-size: .9rem;
+    }
+
+    #modo-preparo {
+
+        border-left: 4px solid #f3a847;
+        border-radius: 8px;
+        font-size: .9rem;
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+
+@media (max-width: 480px) {
+    #titulo-receita {
+        font-size: 1.6rem;
+        color: #a84c24;
+        margin-bottom: .9rem;
+    }
+
+    .conteudo-receita h2 {
+        font-size: 1.25rem;
+        margin-top: 1.7rem;
+
+    }
+
+    ul#ingredientes {
+        font-size: .8rem;
+    }
+
+    #modo-preparo {
+        padding: 1rem 1rem 1rem 0;
+        font-size: .75rem;
+        line-height: 1.6;
+
+
+    }
+
+
+}
