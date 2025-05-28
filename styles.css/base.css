@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fff8f0, #ffe9dc);
+    margin: 0;
+    padding: 0;
+    color: #4b2e2e;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.conteudo {
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+
+
+
+}
+
+
+h1,
+h2 {
+    color: #7a4c1e;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.botao {
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #f3a847;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.botao:hover {
+    background-color: #e6953c;
+    transform: scale(1.05);
+}
+
+.botao-voltar {
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #d86f33, #a84c24);
+    color: #fff8f0;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(168, 76, 36, 0.3);
+}
+
+.botao-voltar:hover {
+    background: linear-gradient(135deg, #e27d3d, #b9542d);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(168, 76, 36, 0.4);
+}
+
+
+
+
+/* Responsividade TABLET E MOBILE */
+
+/* Responsivo para tablet */
+@media (max-width: 768px) {
+     .container {
+        max-width: 100%;
+        padding: 1rem 1.5rem;
+
+    }
+    .conteudo {
+        padding: 1rem 2rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .botao {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+}
+
+
+
+
+/* Responsivo para celular */
+@media (max-width: 480px) {
+
+    .container {
+        max-width: 100%;
+        padding: 1rem 0.5rem;
+
+    }
+
+    .conteudo {
+        padding: 1rem;
+
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+
+    .botao {
+        font-size: 0.75rem;
+        padding: 8px 10px;
+    }
+
+
+
+
+}
